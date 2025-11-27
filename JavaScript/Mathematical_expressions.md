@@ -48,7 +48,7 @@ console.log(isInequalityTrue(2));   // false: 13 < 32
 - Explanation:
   - When x = 0: 0³ + 0 + 3 = 3, and 0⁵ = 0; since 3 > 0, the inequality holds.
   - When x = 1: 1³ + 1 + 3 = 5, and 1⁵ = 1; since 5 > 1, the inequality holds.
-  - When x = 1.5: 3.375 + 1.5 + 3 = 7.875, and 7.59375; since 7.875 > 7.59375, the inequality holds.
+  - When x = 1.5: 3.375 + 1.5 + 3 = 7.875, and 1.5⁵ = 7.59375; since 7.875 > 7.59375, the inequality holds.
   - When x = 2: 8 + 2 + 3 = 13, and 2⁵ = 32; since 13 < 32, the inequality does not hold.
 - Note: The inequality is true for values roughly in the range (-∞, ~1.53).
 
